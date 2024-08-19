@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        #user-container {
+            text-align: center;
+        }
+        #user-container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        #get-user-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random User Generator</h1>
+    <div id="user-container">
+        <img src="" alt="User Picture" id="user-picture">
+        <h2 id="user-name"></h2>
+        <p id="user-email"></p>
+    </div>
+    <button id="get-user-btn">Get Random User</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
